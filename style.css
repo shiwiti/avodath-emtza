@@ -6,9 +6,10 @@ direction: rtl;
 text-align: right;
 }
 
-.first-row {
+.first-row, .second-row {
     width: 900px;
     margin: auto;
+    clear: right;
 
 }
 
@@ -19,15 +20,34 @@ text-align: right;
 
 }
 
-.second-row .col {
-    clear: right;
+
+.second-row .col2 {
+   
     position: relative;
     float: right;
     width: 33.3%;
 
 }
+.second-row .map {
+   
+    position: relative;
+    float: right;
+    width: 33.3%;
 
+}
 footer {
  clear: right;
+ background-color: rgb(144, 144, 144);
+ text-align: center;
+ height: 37px;
+ width: 100%;
+ margin: auto;
+ position: fixed;
+ bottom: 0px;
+}
 
+footer a {
+    color: white;
+    font-size: 9pt;
+    font-family: Arial, Helvetica, sans-serif;
 }
