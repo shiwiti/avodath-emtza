@@ -5,3 +5,29 @@ body {
 direction: rtl;
 text-align: right;
 }
+
+.first-row {
+    width: 900px;
+    margin: auto;
+
+}
+
+.first-row .col {
+    position: relative;
+    float: right;
+    width: 33.3%;
+
+}
+
+.second-row .col {
+    clear: right;
+    position: relative;
+    float: right;
+    width: 33.3%;
+
+}
+
+footer {
+ clear: right;
+
+}
