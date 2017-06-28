@@ -1,5 +1,34 @@
 /*style.css*/
 
+
+
+/* css reset*/
+
+body,ul,h1,h3,li{ margin:0; padding:0}
+
+html {
+
+ box-sizing: border-box;
+
+}
+
+*, *:before, *:after {
+
+ box-sizing: inherit;
+
+}
+
+ol, ul {
+
+ list-style: none;
+
+}
+
+img{ border:none;}
+
+/* ---------------------------------------------- */
+
+ 
 body {
 
 direction: rtl;
@@ -36,7 +65,12 @@ color: white;
     margin-top: 4px  ;
     margin-right: 2px;
 }
-
+.first-row .col-text a{
+ position: absolute;
+    float: left;
+    bottom: 2px;
+    left: 2px;
+}
 .second-row .col2 {
    
     position: relative;
