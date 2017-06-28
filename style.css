@@ -30,6 +30,11 @@ text-align: right;
     bottom: 10px;
     right: 7px;
 box-sizing: border-box;
+color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4px  ;
+    margin-right: 2px;
 }
 
 .second-row .col2 {
@@ -48,9 +53,7 @@ box-sizing: border-box;
 }
 
 p {
-     color: white;
-    font-size: 9pt;
-    font-family: Arial, Helvetica, sans-serif;  
+     
 }
 
 footer {
@@ -66,6 +69,7 @@ footer {
 
 footer a {
     color: white;
-    font-size: 9pt;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
